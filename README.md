@@ -61,3 +61,7 @@ src/
   pages/
   styles/themes/  one file per visual theme
 ```
+
+<!--
+Personal health environment (PGO) for pregnant women, operated as zwangerenportaal.nl B.V. Serves approximately 350,000 user accounts who can view their medical records from obstetric care providers, access community features, courses, and content.
+ -->
