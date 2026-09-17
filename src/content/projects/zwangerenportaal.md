@@ -1,5 +1,5 @@
 ---
-title: "ZwangerenPortaal — live healthcare platform"
+title: "ZwangerenPortaal — Healthcare Platform (2.5M+ Users)"
 category: "Healthcare"
 description: "PHP/Symfony backend on a Dutch patient portal used by over 2.5 million new parents. The value is continuity: the product stays live while architecture and APIs improve."
 featured: true
