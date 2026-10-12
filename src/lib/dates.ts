@@ -1,5 +1,9 @@
 export function formatTenure(startDate: string, endDate: string | null) {
-	return `${formatMonthYear(startDate)} — ${endDate ? formatMonthYear(endDate) : 'Present'}`;
+	if (!endDate) {
+		return 'Present';
+	}
+
+	return `${formatMonthYear(startDate)} — ${formatMonthYear(endDate)}`;
 }
 
 export function formatMonthYear(value: string) {
