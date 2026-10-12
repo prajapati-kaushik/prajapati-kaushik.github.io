@@ -26,9 +26,9 @@ const audiences = (await getCollection('audiences')).sort((a, b) => a.data.order
 					<article class="note-row">
 						<div>
 							<p class="meta">{entry.data.audience}</p>
-							<h3>
+							<h2>
 								<a href={url(`/for/${entry.id}/`)}>{entry.data.title}</a>
-							</h3>
+							</h2>
 							<p>{entry.data.description}</p>
 						</div>
 					</article>
