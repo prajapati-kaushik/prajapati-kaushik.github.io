@@ -1,0 +1,26 @@
+---
+import ArticleLayout from '../../layouts/ArticleLayout.astro';
+import { site } from '../../data/site';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+	const audiences = await getCollection('audiences');
+	return audiences.map((entry) => ({
+		params: { slug: entry.id },
+		props: { entry },
+	}));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+---
+
+<ArticleLayout
+	title={`${entry.data.title} | ${site.name}`}
+	heading={entry.data.title}
+	description={entry.data.description}
+	canonicalPath={`/for/${entry.id}/`}
+	meta={entry.data.audience}
+>
+	<Content />
+</ArticleLayout>

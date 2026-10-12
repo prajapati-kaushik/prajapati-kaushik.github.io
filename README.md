@@ -36,6 +36,7 @@ Portfolio copy is not hard-coded in components.
 | Experience | `src/content/experience/*.md` |
 | Notes | `src/content/articles/*.md` |
 | About page | `src/content/pages/about.md` |
+| Audience pages (`/for/`) | `src/content/audiences/*.md` — one per reader: recruiters, hiring managers, founders, enterprise |
 | Featured GitHub repos | Chosen at build time from your public original repos plus LinkORB repositories with merged PRs (`githubFeatured` in `src/data/site.ts`) |
 
 To add a project: create a Markdown file under `src/content/projects/`, set `featured: true` to show it on the homepage, then commit and push.

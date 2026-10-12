@@ -1,0 +1,39 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { site } from '../../data/site';
+import { url } from '../../lib/url';
+import { getCollection } from 'astro:content';
+
+const audiences = (await getCollection('audiences')).sort((a, b) => a.data.order - b.data.order);
+---
+
+<BaseLayout
+	title={`Who I work with | ${site.name}`}
+	description="One page each for recruiters, hiring managers, founders, and larger organisations: what you need from me, in the order you need it."
+	canonicalPath="/for/"
+>
+	<section class="section page-head">
+		<p class="eyebrow">For you</p>
+		<h1>Who I work with.</h1>
+		<p class="lead">
+			Different readers need different things from the same career. Pick the page written for your seat.
+		</p>
+	</section>
+	<section class="section">
+		<div class="note-list">
+			{
+				audiences.map((entry) => (
+					<article class="note-row">
+						<div>
+							<p class="meta">{entry.data.audience}</p>
+							<h3>
+								<a href={url(`/for/${entry.id}/`)}>{entry.data.title}</a>
+							</h3>
+							<p>{entry.data.description}</p>
+						</div>
+					</article>
+				))
+			}
+		</div>
+	</section>
+</BaseLayout>

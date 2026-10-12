@@ -18,6 +18,8 @@ The **work section** (`/work/` and each case study) is where those first two rea
 
 Do not rewrite the home page or the about page when tuning this. Their copy stays as committed.
 
+The **audience pages** (`/for/`, one Markdown file per reader in `src/content/audiences/`) restate the same confirmed outcomes for a specific seat: recruiters, hiring managers, founders, larger organisations. The hiring-manager page may go one level deeper technically (public tools, method, interview questions) but follows the same privacy rules as every public page.
+
 First person. Outcomes before tools. PHP and Symfony stay visible as the filter, not as the story. Do not publish internal product names, topic titles, or ticket numbers. Do not invent metrics. Only achievements marked confirmed in `context/achievements.md` may become public claims.
 
 ## Development

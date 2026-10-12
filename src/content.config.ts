@@ -47,9 +47,20 @@ const pages = defineCollection({
 	}),
 });
 
+const audiences = defineCollection({
+	loader: glob({ pattern: '**/*.md', base: './src/content/audiences' }),
+	schema: z.object({
+		title: z.string(),
+		audience: z.string(),
+		description: z.string(),
+		order: z.number().default(0),
+	}),
+});
+
 export const collections = {
 	projects,
 	articles,
 	experience,
 	pages,
+	audiences,
 };
