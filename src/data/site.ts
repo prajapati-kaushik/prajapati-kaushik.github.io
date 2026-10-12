@@ -1,7 +1,7 @@
 export const site = {
 	name: 'Kaushik Prajapati',
-	title: 'PHP/Symfony Backend Engineer',
-	tagline: 'Senior PHP/Symfony Developer · Freelance · Remote · Flexible Timezone',
+	title: 'Senior Backend Engineer',
+	tagline: 'Senior Backend Engineer · PHP/Symfony Developer · Freelance · Remote',
 	headline: 'I turn business needs into software that works.',
 	description: 
 		'Senior PHP/Symfony developer with over a decade of experience building production systems. Patient portals, billing, booking platforms. Available for freelance, contract, or B2B — remote, flexible timezone.',
@@ -25,7 +25,7 @@ export const site = {
 		{ label: 'Contact', href: '/contact/' },
 	],
 	hero: {
-		kicker: 'Senior PHP/Symfony Developer · Freelance · Remote · Flexible Timezone',
+		kicker: 'Senior Backend Engineer · PHP/Symfony Developer · Freelance · Remote',
 		heading: 'I turn business needs into software that works — and keeps working as it grows.',
 		body: "Over a decade with a Dutch product company. A patient portal with 2.5M+ users. Billing systems handling real revenue. I build software that works — and improve it while it's live. Available for freelance, contract, or B2B — remote, flexible timezone.",
 	},
@@ -79,7 +79,7 @@ export const site = {
 	],
 	contact: {
 		heading: "Let's talk about your backend.",
-		body: 'Freelance and contract. Remote from India, overlapping European mornings and afternoons. I am strongest when a product already matters to customers and still has to grow.',
+		body: 'Freelance, contract, or B2B. Remote from India, with a flexible timezone. I am strongest when a product already matters to customers and still has to grow.',
 	},
 	githubFeatured: {
 		limit: 6,
