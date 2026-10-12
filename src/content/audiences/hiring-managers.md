@@ -7,7 +7,7 @@ order: 2
 
 ## The kind of work I do
 
-Most of my last two years is cutover engineering, not greenfield CRUD. A patient portal used by millions of people needed its legacy PHP backend replaced with Symfony 7 while parents, midwives, and a content team kept using it every day. I was the primary backend engineer on that product for years before the replacement, and I carried it through: a compatible API for the existing frontend, console jobs moved one batch at a time, and an admin rollout to the people who publish content, with a shared defect sheet until they stopped needing the old system.
+Most of my work over the last two years has been cutover engineering, not greenfield CRUD. A patient portal used by millions of people needed its legacy PHP backend replaced with Symfony 7 while parents, midwives, and a content team kept using it every day. I was the primary backend engineer on that product for years before the replacement, and I carried it through: a compatible API for the existing frontend, console jobs moved one batch at a time, and an admin rollout to the people who publish content, with a shared defect sheet until they stopped needing the old system.
 
 In parallel, older PHP products — mail, alerting, internal tools — moved onto Symfony without pulling them out of service, and the internal tools my team depends on were replaced without stopping delivery.
 
