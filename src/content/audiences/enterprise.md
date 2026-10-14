@@ -7,7 +7,7 @@ order: 4
 
 ## Where I fit
 
-Established organisations rarely need another engineer who can start a project. They need one who can change a system that is already in use — by customers, by other teams, by auditors — and leave a record of why each change was safe. That is the work I have done for over a decade on healthcare software in the Netherlands, and it is the work I am looking for.
+Established organisations rarely need another engineer who can start a project. They need one who can change a system that is already in use — by customers, by other teams, by auditors — and leave a record of why each change was safe. That is the work I have done on healthcare products in the Netherlands, and it is the work I am looking for. I have spent over a decade in production PHP; the Dutch healthcare work is the recent depth.
 
 ## Evidence that travels
 

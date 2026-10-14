@@ -1,33 +1,35 @@
 ---
-title: "What you get when I join your backend"
+title: "How I work on a live PHP product"
 audience: "For hiring managers and tech leads"
-description: "How I work on a live PHP/Symfony product: slices instead of rewrites, written root causes, and the questions worth asking me in an interview."
+description: "How I work on a live PHP/Symfony product — APIs, data, and templates. Slices instead of rewrites, written root causes, and the questions worth asking me in an interview."
 order: 2
 ---
 
 ## The kind of work I do
 
-Most of my work over the last two years has been cutover engineering, not greenfield CRUD. A patient portal used by millions of people needed its legacy PHP backend replaced with Symfony 7 while parents, midwives, and a content team kept using it every day. I was the primary backend engineer on that product for years before the replacement, and I carried it through: a compatible API for the existing frontend, console jobs moved one batch at a time, and an admin rollout to the people who publish content, with a shared defect sheet until they stopped needing the old system.
+Most of my work over the last two years has been cutover engineering, not greenfield CRUD.
 
-In parallel, older PHP products — mail, alerting, internal tools — moved onto Symfony without pulling them out of service, and the internal tools my team depends on were replaced without stopping delivery.
+A Dutch parent portal used by millions of new parents needed its legacy PHP backend replaced with Symfony 7 while parents, midwives, and a content team kept using it every day. I was the primary backend engineer on that product for years before the replacement, and I carried it through. The public API stayed compatible for the existing frontend. Console jobs moved one batch at a time. The people who publish content left the old admin when they no longer needed it. [Read the case](/work/zwangerenportaal/).
+
+In the same years, older PHP products — mail, alerting, internal tools — moved onto Symfony without a shutdown. Internal tools the team depends on were replaced without stopping delivery.
 
 ## How I work
 
-- **Slices, not freezes.** Each change ships behind a compatible interface. The old path stays available until the new one is proven, then it is removed.
-- **Root causes in writing.** When a purchase does not unlock access or an email goes to the wrong segment, I trace the flow end to end — frontend, API, payment provider, callback, database — and write it down with the query and the fix before anyone asks for a plan. The write-up is the handover.
-- **Align before coding.** For estate-wide changes (deprecations, static-analysis levels, framework upgrades) I open a short written proposal first, so reviewers see the approach before the PR.
-- **Static analysis and tests as safety rails.** I raise analysis levels one package at a time and keep behaviour checks around anything that moves money or sends mail.
-- **AI tools, reviewed.** I use coding agents for analysis, migration drafts, and documentation, and I review the output the way I would review a colleague's PR.
+- **Slices, not freezes.** Each change ships behind a compatible interface. The old path stays until the new one is proven, then it goes.
+- **Root causes in writing.** When a purchase does not unlock access, or mail goes to the wrong people, I trace the path — frontend, API, payment provider, callback, database — and write down the query and the fix. That write-up is the handover.
+- **Align before coding.** For estate-wide work (deprecations, analysis levels, framework upgrades) I send a short proposal before the PR.
+- **Static analysis and tests as safety rails.** I raise static analysis one package at a time. Behaviour checks sit around anything that moves money or sends mail.
+- **AI tools, reviewed.** I use coding agents for analysis, migration drafts, and documentation. I review the output the way I would review a colleague's PR.
 
 ## Stack I am fluent in
 
-PHP 8, Symfony 6/7 (plus the Silex and Symfony 4/5 codebases that come before them), Doctrine, MySQL/MariaDB, REST and GraphQL APIs, Docker, GitHub Actions, transactional email providers, and payment-provider webhooks. Enough Next.js and React to debug the frontend side of an API contract.
+PHP 8 and Symfony 7 first. Also Symfony 6, and the Silex and Symfony 4/5 codebases that come before them. Doctrine, MySQL/MariaDB, REST and GraphQL APIs, Twig and server-rendered HTML/CSS, Docker, GitHub Actions, transactional email, payment-provider webhooks. Enough Next.js and React to debug the frontend side of an API contract. I am not a specialist frontend hire; I do ship the templates and markup the product needs.
 
 ## Where I am honest about limits
 
 - Almost all of my recent depth is one company and one product family. Ask me for the cutover story, not for breadth across ten stacks.
-- I have owned the backend; I have not owned hiring or people management, and I am not applying to.
-- I prefer written goals on a quarterly cadence and 1:1s for blockers or career, not weekly status inspection. If your team runs on standups, tell me early.
+- I have owned the PHP side of the product — APIs, data, and the templates that render it. I have not owned hiring or people management, and I am not applying for those roles.
+- I prefer written goals on a quarterly cadence and 1:1s for blockers, not weekly status inspection. If your team runs on standups, tell me early.
 
 ## Questions worth asking me
 
@@ -38,4 +40,6 @@ PHP 8, Symfony 6/7 (plus the Silex and Symfony 4/5 codebases that come before th
 
 ## Working together
 
-Remote from India with European overlap. Contract or B2B. [Selected work](/work/) · [Engineering notes](/notes/) · [Contact](/contact/)
+Available now. Remote from India, European mornings and afternoons. For incidents and go-lives I can hold a fixed CET window. Contract or B2B; open to a long-term role if the product is right.
+
+[Selected work](/work/) · [Engineering notes](/notes/) · [Contact](/contact/)
