@@ -1,7 +1,7 @@
 export const site = {
 	name: 'Kaushik Prajapati',
 	title: 'Senior Backend Engineer',
-	tagline: 'Senior Backend Engineer · PHP/Symfony Developer · Freelance · Remote'
+	tagline: 'Senior Backend Engineer · PHP/Symfony Developer · Freelance · Remote',
 	headline: 'I turn business needs into software that works.',
 	description: 
 		'Senior PHP/Symfony developer with over a decade of experience building production systems. Patient portals, billing, booking platforms. Available for freelance, contract, or B2B — remote, flexible timezone.',
